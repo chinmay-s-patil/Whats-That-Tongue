@@ -1,0 +1,6 @@
+google_api_python_client==2.138.0
+numpy==2.2.0
+pandas==2.2.3
+streamlit==1.41.1
+yt_dlp==2024.12.13
+browser_cookie3

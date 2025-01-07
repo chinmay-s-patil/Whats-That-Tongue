@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>What's That Tongue?</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .active-button {
+            background-color: #3b82f6;
+            color: white;
+        }
+        .inactive-button {
+            background-color: white;
+            color: black;
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-md w-96">
+        <h1 class="text-2xl font-bold mb-4 text-center">What's That Tongue?</h1>
+        
+        <div class="flex mb-4">
+            <button id="urlButton" class="flex-1 p-2 mr-2 active-button" onclick="showUrlInput()">
+                URL Input
+            </button>
+            <button id="fileButton" class="flex-1 p-2 ml-2 inactive-button" onclick="showFileInput()">
+                File Upload
+            </button>
+        </div>
+
+        <div id="inputContainer" class="mt-4">
+            <input 
+                type="text" 
+                id="urlInput" 
+                placeholder="Enter URL" 
+                class="w-full p-2 border rounded"
+            >
+        </div>
+
+        <script>
+            function showUrlInput() {
+                const urlButton = document.getElementById('urlButton');
+                const fileButton = document.getElementById('fileButton');
+                const inputContainer = document.getElementById('inputContainer');
+
+                // Change button styles
+                urlButton.classList.add('active-button');
+                urlButton.classList.remove('inactive-button');
+                fileButton.classList.remove('active-button');
+                fileButton.classList.add('inactive-button');
+
+                // Clear previous input and add URL input
+                inputContainer.innerHTML = `
+                    <input 
+                        type="text" 
+                        id="urlInput" 
+                        placeholder="Enter URL" 
+                        class="w-full p-2 border rounded"
+                    >
+                `;
+            }
+
+            function showFileInput() {
+                const urlButton = document.getElementById('urlButton');
+                const fileButton = document.getElementById('fileButton');
+                const inputContainer = document.getElementById('inputContainer');
+
+                // Change button styles
+                fileButton.classList.add('active-button');
+                fileButton.classList.remove('inactive-button');
+                urlButton.classList.remove('active-button');
+                urlButton.classList.add('inactive-button');
+
+                // Clear previous input and add file input
+                inputContainer.innerHTML = `
+                    <input 
+                        type="file" 
+                        id="fileInput" 
+                        class="w-full p-2 border rounded"
+                    >
+                `;
+            }
+
+            // Start with URL input selected
+            showUrlInput();
+        </script>
+    </div>
+</body>
+</html>
