@@ -4,6 +4,7 @@ from pathlib import Path
 import torch
 import torchaudio
 import time
+import math
 
 import helper_functions as hf
 
@@ -74,6 +75,7 @@ def main():
                     noise_progress = st.progress(0)
                     noise_placeholder = st.empty()  # Placeholder for the success message
                     noise_success = hf.separate_vocals()
+                    # noise_success = True
                     noise_progress.progress(100)
                     if noise_success:
                         noise_placeholder.success('Background noise removal completed!')
@@ -130,7 +132,7 @@ def main():
                 try:
                     feature_progress = st.progress(0)
                     feature_placeholder = st.empty()  # Placeholder for the success message
-                    feature_success = hf.extract_features()
+                    feature_success = hf.extract_mfcc_from_chunks()
                     feature_progress.progress(100)
                     if feature_success:
                         feature_placeholder.success('Feature extraction completed!')

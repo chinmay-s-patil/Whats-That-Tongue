@@ -6,6 +6,7 @@ import torchaudio
 import demucs
 from pydub import AudioSegment
 import subprocess
+import math
 
 from demucs import pretrained
 from demucs.apply import apply_model
@@ -78,7 +79,7 @@ def convert_to_wav():
         ffmpeg.input(input_path).output(output_path).run(overwrite_output=True)
         print(f"Conversion successful: {output_path}")
         
-        os.remove(input_path)
+        #os.remove(input_path)
         
         return True
     except ffmpeg.Error as e:
@@ -111,7 +112,7 @@ def enhance_quality():
         )
         ffmpeg.run(stream, overwrite_output=True)
         
-        os.remove(input_path)
+        #os.remove(input_path)
         
         return True
     except ffmpeg.Error as e:
@@ -187,7 +188,7 @@ def separate_vocals(model=model,
     torchaudio.save(output_path, vocals.cpu(), sample_rate)
     print("Done!")
     
-    os.remove(input_path)
+    #os.remove(input_path)
     
     return True
 
@@ -200,12 +201,12 @@ def remove_silence():
         (
             ffmpeg
             .input(input_path)
-            .output(output_path, af="silenceremove=1:0:-60dB")
+            .output(output_path, af="silenceremove=1:0:-20dB")
             .run(overwrite_output=True)
         )
         print(f"Silence removed successfully. Output saved to {output_path}")
         
-        os.remove(input_path)
+        #os.remove(input_path)
         
         return True
     except ffmpeg.Error as e:
@@ -214,7 +215,7 @@ def remove_silence():
         return False
 
 
-def chunk_audio(window_size=16000, hop_length=8000, stream=False):
+def chunk_audio(window_size=30*44100, hop_length=5*44100, stream=False):
     """Chunks the audio file at upload/test_sil_rem.wav and saves chunks to database folder.
     
     Args:
@@ -223,14 +224,14 @@ def chunk_audio(window_size=16000, hop_length=8000, stream=False):
     """
     
     if not stream:
-        input_path = r"WhatsThatTongue\uploads\test_sil_rem.wav"
-        output_dir = r"WhatsThatTongue\database\chunks\\"
+        input_path = r"uploads\test_sil_rem.wav"
+        output_dir = r"database\chunks\\"
     else:
         input_path = r"uploads\test_sil_rem.wav"
         Path("database").mkdir(exist_ok=True)
         output_dir = r"database\chunks\\"
     
-    # print("Does: " +  input_path + " exist? " + str(os.path.exists(input_path)))
+    print("Does: " +  input_path + " exist? " + str(os.path.exists(input_path)))
     
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     
@@ -327,6 +328,61 @@ def extract_features(n_mfcc=13, n_fft=2048, hop_length=512, num_segments=5):
     with open(json_path, "w") as fp:
         json.dump(data, fp, indent=4)
         
+    
+    return True
+
+#
+def extract_mfcc_from_chunks(n_mfcc=13, n_fft=2048, hop_length=512):
+    """
+    Extract MFCC features from audio chunks in the 'database/chunks' folder and save them to a JSON file.
+
+    Args:
+        json_path (str): Path to save the JSON file containing MFCCs.
+        n_mfcc (int, optional): Number of MFCC coefficients to extract. Defaults to 13.
+        n_fft (int, optional): Number of FFT components. Defaults to 2048.
+        hop_length (int, optional): Hop length for overlapping frames. Defaults to 512.
+    """
+    # Dictionary to store the extracted MFCCs
+    data = {
+        "mfcc": []
+    }
+    
+    json_path = r"database\mfcc.json"
+    
+    os.remove()
+
+    # Path to the chunks folder
+    chunks_path = r"database/chunks"
+
+    # Iterate over all chunk files in the folder
+    for file_name in sorted(os.listdir(chunks_path)):
+        file_path = os.path.join(chunks_path, file_name)
+
+        # Check if the file is a valid audio file
+        if file_name.endswith(".wav"):
+            try:
+                # Load the audio chunk
+                signal, sr = librosa.load(file_path, sr=None)
+
+                # Extract MFCCs
+                mfcc = librosa.feature.mfcc(y=signal, sr=sr, n_mfcc=n_mfcc, n_fft=n_fft, hop_length=hop_length)
+
+                # Transpose MFCC to have time steps along rows
+                mfcc = mfcc.T
+
+                # Append MFCCs to the data dictionary
+                data["mfcc"].append(mfcc.tolist())
+
+                print(f"Processed {file_name}")
+
+            except Exception as e:
+                print(f"Error processing {file_name}: {e}")
+
+    # Save the extracted MFCCs to the JSON file
+    with open(json_path, "w") as fp:
+        json.dump(data, fp, indent=4)
+
+    print(f"MFCCs saved to {json_path}")
     
     return True
 
