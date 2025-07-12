@@ -1,0 +1,575 @@
+[
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "torchaudio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchaudio",
+        "description": "torchaudio",
+        "detail": "torchaudio",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "helper_functions",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "helper_functions",
+        "description": "helper_functions",
+        "detail": "helper_functions",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "YouTube",
+        "importPath": "pytube",
+        "description": "pytube",
+        "isExtraImport": true,
+        "detail": "pytube",
+        "documentation": {}
+    },
+    {
+        "label": "AudioSegment",
+        "importPath": "pydub",
+        "description": "pydub",
+        "isExtraImport": true,
+        "detail": "pydub",
+        "documentation": {}
+    },
+    {
+        "label": "AudioSegment",
+        "importPath": "pydub",
+        "description": "pydub",
+        "isExtraImport": true,
+        "detail": "pydub",
+        "documentation": {}
+    },
+    {
+        "label": "AudioSegment",
+        "importPath": "pydub",
+        "description": "pydub",
+        "isExtraImport": true,
+        "detail": "pydub",
+        "documentation": {}
+    },
+    {
+        "label": "ffmpeg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ffmpeg",
+        "description": "ffmpeg",
+        "detail": "ffmpeg",
+        "documentation": {}
+    },
+    {
+        "label": "demucs",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "demucs",
+        "description": "demucs",
+        "detail": "demucs",
+        "documentation": {}
+    },
+    {
+        "label": "pretrained",
+        "importPath": "demucs",
+        "description": "demucs",
+        "isExtraImport": true,
+        "detail": "demucs",
+        "documentation": {}
+    },
+    {
+        "label": "pretrained",
+        "importPath": "demucs",
+        "description": "demucs",
+        "isExtraImport": true,
+        "detail": "demucs",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "apply_model",
+        "importPath": "demucs.apply",
+        "description": "demucs.apply",
+        "isExtraImport": true,
+        "detail": "demucs.apply",
+        "documentation": {}
+    },
+    {
+        "label": "apply_model",
+        "importPath": "demucs.apply",
+        "description": "demucs.apply",
+        "isExtraImport": true,
+        "detail": "demucs.apply",
+        "documentation": {}
+    },
+    {
+        "label": "separation",
+        "importPath": "mir_eval",
+        "description": "mir_eval",
+        "isExtraImport": true,
+        "detail": "mir_eval",
+        "documentation": {}
+    },
+    {
+        "label": "separation",
+        "importPath": "mir_eval",
+        "description": "mir_eval",
+        "isExtraImport": true,
+        "detail": "mir_eval",
+        "documentation": {}
+    },
+    {
+        "label": "HDEMUCS_HIGH_MUSDB_PLUS",
+        "importPath": "torchaudio.pipelines",
+        "description": "torchaudio.pipelines",
+        "isExtraImport": true,
+        "detail": "torchaudio.pipelines",
+        "documentation": {}
+    },
+    {
+        "label": "HDEMUCS_HIGH_MUSDB_PLUS",
+        "importPath": "torchaudio.pipelines",
+        "description": "torchaudio.pipelines",
+        "isExtraImport": true,
+        "detail": "torchaudio.pipelines",
+        "documentation": {}
+    },
+    {
+        "label": "download_asset",
+        "importPath": "torchaudio.utils",
+        "description": "torchaudio.utils",
+        "isExtraImport": true,
+        "detail": "torchaudio.utils",
+        "documentation": {}
+    },
+    {
+        "label": "download_asset",
+        "importPath": "torchaudio.utils",
+        "description": "torchaudio.utils",
+        "isExtraImport": true,
+        "detail": "torchaudio.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Fade",
+        "importPath": "torchaudio.transforms",
+        "description": "torchaudio.transforms",
+        "isExtraImport": true,
+        "detail": "torchaudio.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "Fade",
+        "importPath": "torchaudio.transforms",
+        "description": "torchaudio.transforms",
+        "isExtraImport": true,
+        "detail": "torchaudio.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "Audio",
+        "importPath": "IPython.display",
+        "description": "IPython.display",
+        "isExtraImport": true,
+        "detail": "IPython.display",
+        "documentation": {}
+    },
+    {
+        "label": "Audio",
+        "importPath": "IPython.display",
+        "description": "IPython.display",
+        "isExtraImport": true,
+        "detail": "IPython.display",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "librosa",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "librosa",
+        "description": "librosa",
+        "detail": "librosa",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def main():\n    st.set_page_config(page_title=\"What's That Tongue?\", layout=\"centered\")\n    st.title(\"What's That Tongue?\")\n    uploaded_file = st.file_uploader(\n        \"Upload your audio file\",\n        type=[\"mp3\", \"wav\"]\n    )\n    if uploaded_file is not None:\n        # File Upload Section\n        upload_progress = st.progress(0)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "app_vers",
+        "description": "app_vers",
+        "peekOfCode": "def main():\n    st.set_page_config(page_title=\"What's That Tongue?\", layout=\"centered\")\n    st.title(\"What's That Tongue?\")\n    uploaded_file = st.file_uploader(\n        \"Upload your audio file\",\n        type=[\"mp3\", \"wav\"]\n    )\n    # Create a placeholder for processing messages\n    status_container = st.empty()\n    progress_container = st.empty()",
+        "detail": "app_vers",
+        "documentation": {}
+    },
+    {
+        "label": "download_audio_as_mp3",
+        "kind": 2,
+        "importPath": "downloading",
+        "description": "downloading",
+        "peekOfCode": "def download_audio_as_mp3(youtube_url):\n    # Set local FFmpeg path (no admin required)\n    ffmpeg_path = r\"D:\\ffmpeg\\ffmpeg.exe\"  # Your ffmpeg.exe path\n    AudioSegment.converter = ffmpeg_path\n    # Output folder\n    folder = 'downloadedMusic'\n    if not os.path.exists(folder):\n        os.makedirs(folder)\n    try:\n        yt = YouTube(youtube_url)",
+        "detail": "downloading",
+        "documentation": {}
+    },
+    {
+        "label": "clean_youtube_url",
+        "kind": 2,
+        "importPath": "downloading",
+        "description": "downloading",
+        "peekOfCode": "def clean_youtube_url(url):\n    print(url)\n    # Fix shortened or long URLs with parameters\n    if \"youtu.be/\" in url:\n        video_id = url.split(\"youtu.be/\")[1].split(\"?\")[0]\n    elif \"watch?v=\" in url:\n        video_id = url.split(\"watch?v=\")[1].split(\"&\")[0]\n    else:\n        video_id = url  # fallback, unlikely\n    print(f\"https://www.youtube.com/watch?v={video_id}\")",
+        "detail": "downloading",
+        "documentation": {}
+    },
+    {
+        "label": "save_uploaded_file",
+        "kind": 2,
+        "importPath": "helper_functions",
+        "description": "helper_functions",
+        "peekOfCode": "def save_uploaded_file(uploaded_file):\n    \"\"\"\n    Save the uploaded file to the uploads directory\n    \"\"\"\n    try:\n        # Create uploads directory if it doesn't exist\n        upload_dir = Path(\"uploads\")\n        upload_dir.mkdir(exist_ok=True)\n        # Create file path\n        file_path = \"uploads/test.mp3\"",
+        "detail": "helper_functions",
+        "documentation": {}
+    },
+    {
+        "label": "convert_to_wav",
+        "kind": 2,
+        "importPath": "helper_functions",
+        "description": "helper_functions",
+        "peekOfCode": "def convert_to_wav():\n    input_path = r\"uploads/test.mp3\"\n    output_path = r\"uploads/test.wav\"\n    replace = True\n    if not os.path.isfile(input_path):\n        raise FileNotFoundError(f\"The file '{input_path}' does not exist.\")\n    # Handle WAV file replacement logic\n    if os.path.isfile(output_path):\n        if replace:\n            os.remove(output_path)",
+        "detail": "helper_functions",
+        "documentation": {}
+    },
+    {
+        "label": "enhance_quality",
+        "kind": 2,
+        "importPath": "helper_functions",
+        "description": "helper_functions",
+        "peekOfCode": "def enhance_quality():\n    \"\"\"\n    Optimize MP3 file with high quality settings.\n    Args:\n        input_path: Path to input MP3 file\n        output_path: Optional output path. If None, overwrites input file\n    Returns:\n        Path to optimized file\n    \"\"\"\n    input_path = r\"uploads/test.wav\"",
+        "detail": "helper_functions",
+        "documentation": {}
+    },
+    {
+        "label": "separate_vocals",
+        "kind": 2,
+        "importPath": "helper_functions",
+        "description": "helper_functions",
+        "peekOfCode": "def separate_vocals(model=model,\n                   segment=10.0,\n                   overlap=0.1,\n                   device=device):\n    \"\"\"\n    Load an audio file, separate the vocals, and save the result.\n    Uses a fixed input path 'uploads/test_enhanced.wav' and output path 'uploads/test_vocals.wav'.\n    Args:\n        model (torch.nn.Module): Model to separate the tracks\n        segment (int): segment length in seconds",
+        "detail": "helper_functions",
+        "documentation": {}
+    },
+    {
+        "label": "remove_silence",
+        "kind": 2,
+        "importPath": "helper_functions",
+        "description": "helper_functions",
+        "peekOfCode": "def remove_silence():\n    input_path = r\"uploads/test_vocals.wav\"\n    output_path = r\"uploads/test_sil_rem.wav\"\n    try:\n        (\n            ffmpeg\n            .input(input_path)\n            .output(output_path, af=\"silenceremove=1:0:-20dB\")\n            .run(overwrite_output=True)\n        )",
+        "detail": "helper_functions",
+        "documentation": {}
+    },
+    {
+        "label": "chunk_audio",
+        "kind": 2,
+        "importPath": "helper_functions",
+        "description": "helper_functions",
+        "peekOfCode": "def chunk_audio(window_size=30*44100, hop_length=5*44100, stream=False):\n    \"\"\"Chunks the audio file at upload/test_sil_rem.wav and saves chunks to database folder.\n    Args:\n        window_size (int): Length of each chunk in samples\n        hop_length (int): Stride between chunks in samples\n    \"\"\"\n    if not stream:\n        input_path = r\"uploads\\test_sil_rem.wav\"\n        output_dir = r\"database\\chunks\\\\\"\n    else:",
+        "detail": "helper_functions",
+        "documentation": {}
+    },
+    {
+        "label": "extract_features",
+        "kind": 2,
+        "importPath": "helper_functions",
+        "description": "helper_functions",
+        "peekOfCode": "def extract_features(n_mfcc=13, n_fft=2048, hop_length=512, num_segments=5):\n    \"\"\"Take the input of the dataset and saves the JSON file to a particular folder containing MFCCs influenced by the parameters taken as input \n    Args:\n        dataset_path (_type_): Preprocessed daataset path to extract the MFCCs\n        json_path (_type_): JSON file path to save the MFCCs\n        n_mfcc (int, optional): Number of MFCC Coefficients. Defaults to 13.\n        n_fft (int, optional): Number of Fast Fourier Transform Filters. Defaults to 2048.\n        hop_length (int, optional): Number of Frames to skip after the previous one. Defaults to 512.\n        num_segments (int, optional): Number of segments, the audio file should split into. Defaults to 5.\n    \"\"\"",
+        "detail": "helper_functions",
+        "documentation": {}
+    },
+    {
+        "label": "extract_mfcc_from_chunks",
+        "kind": 2,
+        "importPath": "helper_functions",
+        "description": "helper_functions",
+        "peekOfCode": "def extract_mfcc_from_chunks(n_mfcc=13, n_fft=2048, hop_length=512):\n    \"\"\"\n    Extract MFCC features from audio chunks in the 'database/chunks' folder and save them to a JSON file.\n    Args:\n        json_path (str): Path to save the JSON file containing MFCCs.\n        n_mfcc (int, optional): Number of MFCC coefficients to extract. Defaults to 13.\n        n_fft (int, optional): Number of FFT components. Defaults to 2048.\n        hop_length (int, optional): Hop length for overlapping frames. Defaults to 512.\n    \"\"\"\n    # Dictionary to store the extracted MFCCs",
+        "detail": "helper_functions",
+        "documentation": {}
+    },
+    {
+        "label": "SAMPLE_RATE",
+        "kind": 5,
+        "importPath": "helper_functions",
+        "description": "helper_functions",
+        "peekOfCode": "SAMPLE_RATE = 44100\nDURATION = 30\nSAMPLES_PER_TRACK = SAMPLE_RATE * DURATION\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nprint(f\"Using device: {device}\")\nwarnings.filterwarnings('ignore', category=UserWarning, module='streamlit')\nwarnings.filterwarnings('ignore', category=FutureWarning, module='torchaudio')\ndef save_uploaded_file(uploaded_file):\n    \"\"\"\n    Save the uploaded file to the uploads directory",
+        "detail": "helper_functions",
+        "documentation": {}
+    },
+    {
+        "label": "DURATION",
+        "kind": 5,
+        "importPath": "helper_functions",
+        "description": "helper_functions",
+        "peekOfCode": "DURATION = 30\nSAMPLES_PER_TRACK = SAMPLE_RATE * DURATION\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nprint(f\"Using device: {device}\")\nwarnings.filterwarnings('ignore', category=UserWarning, module='streamlit')\nwarnings.filterwarnings('ignore', category=FutureWarning, module='torchaudio')\ndef save_uploaded_file(uploaded_file):\n    \"\"\"\n    Save the uploaded file to the uploads directory\n    \"\"\"",
+        "detail": "helper_functions",
+        "documentation": {}
+    },
+    {
+        "label": "SAMPLES_PER_TRACK",
+        "kind": 5,
+        "importPath": "helper_functions",
+        "description": "helper_functions",
+        "peekOfCode": "SAMPLES_PER_TRACK = SAMPLE_RATE * DURATION\ndevice = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nprint(f\"Using device: {device}\")\nwarnings.filterwarnings('ignore', category=UserWarning, module='streamlit')\nwarnings.filterwarnings('ignore', category=FutureWarning, module='torchaudio')\ndef save_uploaded_file(uploaded_file):\n    \"\"\"\n    Save the uploaded file to the uploads directory\n    \"\"\"\n    try:",
+        "detail": "helper_functions",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "helper_functions",
+        "description": "helper_functions",
+        "peekOfCode": "device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\nprint(f\"Using device: {device}\")\nwarnings.filterwarnings('ignore', category=UserWarning, module='streamlit')\nwarnings.filterwarnings('ignore', category=FutureWarning, module='torchaudio')\ndef save_uploaded_file(uploaded_file):\n    \"\"\"\n    Save the uploaded file to the uploads directory\n    \"\"\"\n    try:\n        # Create uploads directory if it doesn't exist",
+        "detail": "helper_functions",
+        "documentation": {}
+    },
+    {
+        "label": "bundle",
+        "kind": 5,
+        "importPath": "helper_functions",
+        "description": "helper_functions",
+        "peekOfCode": "bundle = HDEMUCS_HIGH_MUSDB_PLUS\nmodel = bundle.get_model().to(device)\nsample_rate = bundle.sample_rate\ndef separate_vocals(model=model,\n                   segment=10.0,\n                   overlap=0.1,\n                   device=device):\n    \"\"\"\n    Load an audio file, separate the vocals, and save the result.\n    Uses a fixed input path 'uploads/test_enhanced.wav' and output path 'uploads/test_vocals.wav'.",
+        "detail": "helper_functions",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "helper_functions",
+        "description": "helper_functions",
+        "peekOfCode": "model = bundle.get_model().to(device)\nsample_rate = bundle.sample_rate\ndef separate_vocals(model=model,\n                   segment=10.0,\n                   overlap=0.1,\n                   device=device):\n    \"\"\"\n    Load an audio file, separate the vocals, and save the result.\n    Uses a fixed input path 'uploads/test_enhanced.wav' and output path 'uploads/test_vocals.wav'.\n    Args:",
+        "detail": "helper_functions",
+        "documentation": {}
+    },
+    {
+        "label": "sample_rate",
+        "kind": 5,
+        "importPath": "helper_functions",
+        "description": "helper_functions",
+        "peekOfCode": "sample_rate = bundle.sample_rate\ndef separate_vocals(model=model,\n                   segment=10.0,\n                   overlap=0.1,\n                   device=device):\n    \"\"\"\n    Load an audio file, separate the vocals, and save the result.\n    Uses a fixed input path 'uploads/test_enhanced.wav' and output path 'uploads/test_vocals.wav'.\n    Args:\n        model (torch.nn.Module): Model to separate the tracks",
+        "detail": "helper_functions",
+        "documentation": {}
+    },
+    {
+        "label": "extract_features",
+        "kind": 2,
+        "importPath": "trial",
+        "description": "trial",
+        "peekOfCode": "def extract_features(n_mfcc=13, n_fft=2048, hop_length=512, num_segments=5):\n    \"\"\"Take the input of the dataset and saves the JSON file to a particular folder containing MFCCs influenced by the parameters taken as input \n    Args:\n        dataset_path (_type_): Preprocessed daataset path to extract the MFCCs\n        json_path (_type_): JSON file path to save the MFCCs\n        n_mfcc (int, optional): Number of MFCC Coefficients. Defaults to 13.\n        n_fft (int, optional): Number of Fast Fourier Transform Filters. Defaults to 2048.\n        hop_length (int, optional): Number of Frames to skip after the previous one. Defaults to 512.\n        num_segments (int, optional): Number of segments, the audio file should split into. Defaults to 5.\n    \"\"\"",
+        "detail": "trial",
+        "documentation": {}
+    },
+    {
+        "label": "SAMPLE_RATE",
+        "kind": 5,
+        "importPath": "trial",
+        "description": "trial",
+        "peekOfCode": "SAMPLE_RATE = 44100\nDURATION = 30\nSAMPLES_PER_TRACK = SAMPLE_RATE * DURATION\n### Saving MFCC's\ndef extract_features(n_mfcc=13, n_fft=2048, hop_length=512, num_segments=5):\n    \"\"\"Take the input of the dataset and saves the JSON file to a particular folder containing MFCCs influenced by the parameters taken as input \n    Args:\n        dataset_path (_type_): Preprocessed daataset path to extract the MFCCs\n        json_path (_type_): JSON file path to save the MFCCs\n        n_mfcc (int, optional): Number of MFCC Coefficients. Defaults to 13.",
+        "detail": "trial",
+        "documentation": {}
+    },
+    {
+        "label": "DURATION",
+        "kind": 5,
+        "importPath": "trial",
+        "description": "trial",
+        "peekOfCode": "DURATION = 30\nSAMPLES_PER_TRACK = SAMPLE_RATE * DURATION\n### Saving MFCC's\ndef extract_features(n_mfcc=13, n_fft=2048, hop_length=512, num_segments=5):\n    \"\"\"Take the input of the dataset and saves the JSON file to a particular folder containing MFCCs influenced by the parameters taken as input \n    Args:\n        dataset_path (_type_): Preprocessed daataset path to extract the MFCCs\n        json_path (_type_): JSON file path to save the MFCCs\n        n_mfcc (int, optional): Number of MFCC Coefficients. Defaults to 13.\n        n_fft (int, optional): Number of Fast Fourier Transform Filters. Defaults to 2048.",
+        "detail": "trial",
+        "documentation": {}
+    },
+    {
+        "label": "SAMPLES_PER_TRACK",
+        "kind": 5,
+        "importPath": "trial",
+        "description": "trial",
+        "peekOfCode": "SAMPLES_PER_TRACK = SAMPLE_RATE * DURATION\n### Saving MFCC's\ndef extract_features(n_mfcc=13, n_fft=2048, hop_length=512, num_segments=5):\n    \"\"\"Take the input of the dataset and saves the JSON file to a particular folder containing MFCCs influenced by the parameters taken as input \n    Args:\n        dataset_path (_type_): Preprocessed daataset path to extract the MFCCs\n        json_path (_type_): JSON file path to save the MFCCs\n        n_mfcc (int, optional): Number of MFCC Coefficients. Defaults to 13.\n        n_fft (int, optional): Number of Fast Fourier Transform Filters. Defaults to 2048.\n        hop_length (int, optional): Number of Frames to skip after the previous one. Defaults to 512.",
+        "detail": "trial",
+        "documentation": {}
+    },
+    {
+        "label": "chunk_path",
+        "kind": 5,
+        "importPath": "trial",
+        "description": "trial",
+        "peekOfCode": "chunk_path = r\"WhatsThatTongue\\database\\chunks\"\nextract_features(n_mfcc=13, n_fft=2048, hop_length=512, num_segments=5)",
+        "detail": "trial",
+        "documentation": {}
+    }
+]

@@ -1,6 +1,10 @@
-google_api_python_client==2.138.0
-numpy==2.2.0
-pandas==2.2.3
-streamlit==1.41.1
-yt_dlp==2024.12.13
-browser_cookie3
+demucs==4.0.1
+ffmpeg==1.4
+ipython==9.4.0
+librosa==0.11.0
+mir_eval==0.8.2
+pydub==0.25.1
+streamlit==1.46.1
+torch==2.7.1
+torchaudio==2.7.1
+tqdm==4.67.1
