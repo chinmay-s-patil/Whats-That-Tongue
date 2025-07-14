@@ -349,10 +349,11 @@ def extract_mfcc_from_chunks(n_mfcc=13, n_fft=2048, hop_length=512):
     
     json_path = r"database\mfcc.json"
     
-    os.remove()
+    if os.path.exists(json_path):
+        os.remove(json_path)
 
     # Path to the chunks folder
-    chunks_path = r"database/chunks"
+    chunks_path = r"database\chunks"
 
     # Iterate over all chunk files in the folder
     for file_name in sorted(os.listdir(chunks_path)):

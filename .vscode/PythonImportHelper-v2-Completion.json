@@ -95,47 +95,6 @@
         "documentation": {}
     },
     {
-        "label": "warnings",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "warnings",
-        "description": "warnings",
-        "detail": "warnings",
-        "documentation": {}
-    },
-    {
-        "label": "YouTube",
-        "importPath": "pytube",
-        "description": "pytube",
-        "isExtraImport": true,
-        "detail": "pytube",
-        "documentation": {}
-    },
-    {
-        "label": "AudioSegment",
-        "importPath": "pydub",
-        "description": "pydub",
-        "isExtraImport": true,
-        "detail": "pydub",
-        "documentation": {}
-    },
-    {
-        "label": "AudioSegment",
-        "importPath": "pydub",
-        "description": "pydub",
-        "isExtraImport": true,
-        "detail": "pydub",
-        "documentation": {}
-    },
-    {
-        "label": "AudioSegment",
-        "importPath": "pydub",
-        "description": "pydub",
-        "isExtraImport": true,
-        "detail": "pydub",
-        "documentation": {}
-    },
-    {
         "label": "ffmpeg",
         "kind": 6,
         "isExtraImport": true,
@@ -167,6 +126,22 @@
         "description": "demucs",
         "isExtraImport": true,
         "detail": "demucs",
+        "documentation": {}
+    },
+    {
+        "label": "AudioSegment",
+        "importPath": "pydub",
+        "description": "pydub",
+        "isExtraImport": true,
+        "detail": "pydub",
+        "documentation": {}
+    },
+    {
+        "label": "AudioSegment",
+        "importPath": "pydub",
+        "description": "pydub",
+        "isExtraImport": true,
+        "detail": "pydub",
         "documentation": {}
     },
     {
@@ -339,6 +314,15 @@
         "documentation": {}
     },
     {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -372,24 +356,6 @@
         "description": "app_vers",
         "peekOfCode": "def main():\n    st.set_page_config(page_title=\"What's That Tongue?\", layout=\"centered\")\n    st.title(\"What's That Tongue?\")\n    uploaded_file = st.file_uploader(\n        \"Upload your audio file\",\n        type=[\"mp3\", \"wav\"]\n    )\n    # Create a placeholder for processing messages\n    status_container = st.empty()\n    progress_container = st.empty()",
         "detail": "app_vers",
-        "documentation": {}
-    },
-    {
-        "label": "download_audio_as_mp3",
-        "kind": 2,
-        "importPath": "downloading",
-        "description": "downloading",
-        "peekOfCode": "def download_audio_as_mp3(youtube_url):\n    # Set local FFmpeg path (no admin required)\n    ffmpeg_path = r\"D:\\ffmpeg\\ffmpeg.exe\"  # Your ffmpeg.exe path\n    AudioSegment.converter = ffmpeg_path\n    # Output folder\n    folder = 'downloadedMusic'\n    if not os.path.exists(folder):\n        os.makedirs(folder)\n    try:\n        yt = YouTube(youtube_url)",
-        "detail": "downloading",
-        "documentation": {}
-    },
-    {
-        "label": "clean_youtube_url",
-        "kind": 2,
-        "importPath": "downloading",
-        "description": "downloading",
-        "peekOfCode": "def clean_youtube_url(url):\n    print(url)\n    # Fix shortened or long URLs with parameters\n    if \"youtu.be/\" in url:\n        video_id = url.split(\"youtu.be/\")[1].split(\"?\")[0]\n    elif \"watch?v=\" in url:\n        video_id = url.split(\"watch?v=\")[1].split(\"&\")[0]\n    else:\n        video_id = url  # fallback, unlikely\n    print(f\"https://www.youtube.com/watch?v={video_id}\")",
-        "detail": "downloading",
         "documentation": {}
     },
     {
